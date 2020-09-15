@@ -11,14 +11,14 @@ cursor = driver.cursor()
 
 # cursor.execute('CREATE DATABASE d4e15')
 
-# cursor.execute('''
-# CREATE TABLE IF NOT EXISTS `d4e15`.`quiz`(
-#     id int AUTO_INCREMENT,
-#     question varchar(255),
-#     awnser varchar(255),
-#     PRIMARY KEY(id)
-# )
-# ''')
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS `d4e15`.`quiz`(
+    id int AUTO_INCREMENT,
+    question varchar(255),
+    awnser varchar(255),
+    PRIMARY KEY(id)
+)
+''')
 
 # cursor.execute(''' 
 #     CREATE TABLE `d4e15`.`choice`(
